@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    max-width: 1440px;
+    margin:  auto;
+}
+
+nav {
+    padding: 1rem;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-con .logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    align-items: center;
+}
+
+.nav-con .logo a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu a {
+    color: #000;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main {
+    background-color: aquamarine;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .img img {
+    margin: 1rem 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .title  {
+    text-align: center;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.item h2 {
+    margin: 1rem 0;
+}
+
+.itemx h2 {
+    margin: 1rem 0;
+}
+
+.itemx p {
+    margin: 1rem 0;
+}
+
+.itemt h2 {
+    margin: 1rem 0;
+}
+
+.itemx img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.footer-bottom {
+    color: black;
+    background-color: rgb(158, 246, 215);
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* .tom-footer  {
+    position: absolute;
+    display: flex;
+    z-index: 999;
+    background-color: rgb(0, 169, 166);
+    color: rgb(254, 254, 254);
+    padding: .4rem 1rem;
+    top: 641px;
+    left: 882px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+}
+
+.tom-footer a {
+    text-decoration: none;  
+    color: #ffffff;
+    transition: 0.4s;
+}
+
+.tom-footer a:hover {
+    color: #f63a3a;
+} */

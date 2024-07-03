@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Store</title>
+<link rel="stylesheet" href="box.css">
+</head>
+<body>
+<div class="container">
+  <h1>ขายของออนไลน์</h1>
+  <div class="products">
+    <div class="product">
+      <img src="https://fh.lnwfile.com/_/fh/_raw/j8/qp/0d.png" alt="Product 1">
+      <p>ชื่อสินค้า 1</p>
+      <p>ราคา: 100 บาท</p>
+      <button onclick="addToCart('ชื่อสินค้า 1', 100)">เพิ่มในตะกร้า</button>
+    </div>
+
+    <div class="product">
+        <img src="https://th-live-01.slatic.net/p/7c8db4e77331957e6f6bb4af08065433.jpg" alt="Product 2">
+        <p>ชื่อสินค้า 2</p>
+        <p>ราคา: 200 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 2', 200)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="https://th-live-01.slatic.net/p/7c8db4e77331957e6f6bb4af08065433.jpg" alt="Product 3">
+        <p>ชื่อสินค้า 3</p>
+        <p>ราคา: 300 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 3', 300)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="product4.jpg" alt="Product 4">
+        <p>ชื่อสินค้า 4</p>
+        <p>ราคา: 400 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 4', 400)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="product5.jpg" alt="Product 5">
+        <p>ชื่อสินค้า 5</p>
+        <p>ราคา: 500 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 5', 500)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="https://down-th.img.susercontent.com/file/7311b0ab5e2e9e178ee693b77350d1f6" alt="Product 6">
+        <p>ชื่อสินค้า 6</p>
+        <p>ราคา: 600 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 6', 600)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="product7.jpg" alt="Product 7">
+        <p>ชื่อสินค้า 7</p>
+        <p>ราคา: 700 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 7', 700)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="product8.jpg" alt="Product 8">
+        <p>ชื่อสินค้า 8</p>
+        <p>ราคา: 800 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 8', 800)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="product9.jpg" alt="Product 9">
+        <p>ชื่อสินค้า 9</p>
+        <p>ราคา: 900 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 9', 900)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="product10.jpg" alt="Product 10">
+        <p>ชื่อสินค้า 10</p>
+        <p>ราคา: 1000 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 10', 1000)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="https://down-th.img.susercontent.com/file/7311b0ab5e2e9e178ee693b77350d1f6" alt="Product 11">
+        <p>ชื่อสินค้า 11</p>
+        <p>ราคา: 1100 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 11', 1100)">เพิ่มในตะกร้า</button>
+      </div>
+
+      <div class="product">
+        <img src="https://filebroker-cdn.lazada.co.th/kf/Sc505906aab3b4fa6bd6a36c7dac02021u.jpg" alt="Product 12">
+        <p>ชื่อสินค้า 12</p>
+        <p>ราคา: 1200 บาท</p>
+        <button onclick="addToCart('ชื่อสินค้า 12', 1200)">เพิ่มในตะกร้า</button>
+      </div>
+    <!-- เพิ่มสินค้าอื่นๆ ตามต้องการ -->
+  </div>
+  <div class="cart">
+    <h2>ตะกร้า</h2>
+    <ul id="cart-items">
+      <!-- รายการสินค้าในตะกร้าจะปรากฎที่นี่ -->
+    </ul>
+    <p id="total-price">ราคารวม: 0 บาท</p>
+    <button class="total checkout-btn custom-btn" onclick="checkout()">สั่งซื้อ</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
